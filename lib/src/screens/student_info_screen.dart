@@ -24,7 +24,7 @@ class StudentInfoCard extends StatelessWidget {
       margin: const EdgeInsets.all(20),
       elevation: 8,
       child: Padding(
-        padding: const EdgeInsets.all(24.0),
+        padding: const EdgeInsets.all(32.0),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
