@@ -43,6 +43,24 @@ class StudentInfoCard extends StatelessWidget {
             _buildInfoRow('Номер группы:', 'ИКБО-06-22'),
             const SizedBox(height: 15),
             _buildInfoRow('Номер студенческого:', '22И1253'),
+            const SizedBox(height: 15),
+            Container(
+              padding: const EdgeInsets.all(32.0),
+              decoration: BoxDecoration(
+                color: Colors.greenAccent,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: ElevatedButton(
+                onPressed: null,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.amber,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(50),
+                  ),
+                ),
+                child: const Text('Пример кнопки'),
+              ),
+            )
           ],
         ),
       ),
