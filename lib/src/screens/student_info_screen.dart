@@ -37,7 +37,7 @@ class StudentInfoCard extends StatelessWidget {
                 color: Colors.deepPurple,
               ),
             ),
-            const SizedBox(height: 30),
+            const SizedBox(height: 60),
             _buildInfoRow('ФИО:', 'Шинёв Алексей Вадимович'),
             const SizedBox(height: 15),
             _buildInfoRow('Номер группы:', 'ИКБО-06-22'),
