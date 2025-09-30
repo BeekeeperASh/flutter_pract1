@@ -29,9 +29,7 @@ class StudentInfoPage extends StatelessWidget {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text('Информация студента'),
       ),
-      body: const Center(
-        child: StudentInfoCard(),
-      ),
+      body: const Center(child: StudentInfoCard()),
     );
   }
 }
@@ -91,6 +89,7 @@ class StudentInfoCard extends StatelessWidget {
             style: const TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.w500,
+              color: Colors.red,
             ),
           ),
         ),
