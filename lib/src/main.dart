@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_pract1/src/screens/example_screen.dart';
+import 'screens/content_switcher_screen.dart';
 import 'screens/student_info_screen.dart';
 
 void main() {
@@ -11,11 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Информация студента',
+      title: 'Практическая работа',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const StudentInfoPage(),
+      home: const ContentSwitcherScreen(),
     );
   }
 }
